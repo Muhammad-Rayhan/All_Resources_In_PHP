@@ -7,7 +7,7 @@
     // Note: Always input ID = ID_number like (id = 3), Because if we just give only ID number then all the data will be deleted. So always input id = id_number (id=3).
     // ==================================NOTE=====================================>
 
-    //Object-Oriented Query Connection
+    //MySQLi Procedural Query Connection
     $result = mysqli_query($conn, $deleteQuery);  //Insert query operation into a variable. & mysqli_query($our_connect_variable_name, $our_deleteQuery_variable_name)
 
     //If you need to show data delete successfully or not. Than you need to run if condition like-
