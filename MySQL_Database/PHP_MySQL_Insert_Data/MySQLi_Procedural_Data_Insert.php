@@ -1,7 +1,7 @@
 <?php
     include "MySQL_Procedural_connect.php";  //At first include database connect in this file.
 
-    $insertQuery = "INSERT INTO data_base_name (name, email, password) VALUES ('Rayhan', 'rayhan.cse2k17@gmail.com', 'rayhan1998')";  //"INSERT INTO our_created_database_name (Our_created_Data_table_field_name) VALUES ('Insert_data-table_value inside single cotation')";
+    $insertQuery = "INSERT INTO data_table_name (name, email, password) VALUES ('Rayhan', 'rayhan.cse2k17@gmail.com', 'rayhan1998')";  //"INSERT INTO our_created_datatable_name (Our_created_Data_table_field_name) VALUES ('Insert_data-table_value inside single cotation')";
     
     //Procedural Query Operation
     $result = mysqli_query($conn, $insertQuery);  //Insert query operation into a variable. & mysqli_query($our_connect_variable_name, $our_insertQuery_variable_name)

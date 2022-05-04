@@ -3,7 +3,7 @@
 
 //Full PDO process start (without comment)
     try {
-        $insertQuery = "INSERT INTO data_base_name (name, email, password) VALUES ('Rayhan', 'rayhan.cse2k17@gmail.com', 'rayhan1998')";  //"INSERT INTO our_created_database_name (Our_created_Data_table_field_name) VALUES ('Insert_data-table_value inside single cotation')";
+        $insertQuery = "INSERT INTO data_table_name (name, email, password) VALUES ('Rayhan', 'rayhan.cse2k17@gmail.com', 'rayhan1998')";  //"INSERT INTO our_created_table_name (Our_created_Data_table_field_name) VALUES ('Insert_data-table_value inside single cotation')";
         
         //PDO Query Operation
         $result = $conn->exec($insertQuery);  //Insert query operation into a variable. & $our_connect_variable_name->exec($our_insertQuery_variable_name);
