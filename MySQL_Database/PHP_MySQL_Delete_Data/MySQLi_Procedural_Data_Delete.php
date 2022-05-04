@@ -1,5 +1,5 @@
 <?php
-    include "MySQL_Object-Oriented_connect.php";  //At first include database connect in this file.
+    include "MySQL_Procedural_connect.php";  //At first include database connect in this file.
 
     $deleteQuery = "DELETE FROM data_table WHERE id=3";  //"DELETE FROM our_created_data_table_name WHERE id=3(id_number)"
 
