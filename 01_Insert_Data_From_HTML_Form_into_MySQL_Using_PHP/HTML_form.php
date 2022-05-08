@@ -95,6 +95,7 @@
 ?>
 
 
+
 <!-- HTML form start hera -->
 <form action="HTML_form.php" method="post" style="margin-top: 10px;">  <!--action="HTML_form.php" = (Output show in this page)-->
     Student Name: <input type="text" name="sname"><br><br>
