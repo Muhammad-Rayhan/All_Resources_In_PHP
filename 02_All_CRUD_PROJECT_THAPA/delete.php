@@ -7,6 +7,7 @@
 
     $query = mysqli_query($conn, $deletequery);
 
+    //Chack Connection
     if($query) {
         ?>
         <script>
