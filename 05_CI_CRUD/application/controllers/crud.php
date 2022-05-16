@@ -1,6 +1,5 @@
 <?php
-class Crud extends CI_Controller
-{
+class Crud extends CI_Controller{
     public function index()
     {
         $this->load->model('crud_model');
@@ -59,3 +58,6 @@ class Crud extends CI_Controller
         redirect(base_url('crud'));
     }
 }
+
+
+//Route > Controller > Model
